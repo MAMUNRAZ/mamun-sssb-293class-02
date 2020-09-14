@@ -1,0 +1,195 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background: gray;
+	height: 100vh;
+
+
+
+}
+a{
+	text-decoration: none;
+}
+
+.menubar{
+	text-align: center;
+	margin-top: 60px;
+	font-size: 20px;
+
+
+}
+.menubar ul li{
+	list-style: none;
+	display: inline-block;
+		margin: 10px;
+}
+
+.menubar ul li a{
+	color: white;
+
+
+}
+.menubar ul li a:hover{
+	color: red;
+}
+
+.social-icon{
+	text-align: center;
+}
+.social-icon ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 20px 7px;
+}
+.social-icon ul li a i{
+	height: 60px;
+	width: 60px;
+	background-color: green;
+	color: black;
+	line-height: 60px;
+	font-size: 22px;
+	transition: 0.5s;
+	border-radius: 100%;
+	z-index: 9999;
+
+
+
+}
+
+/*.item-1{
+	position: fixed;
+	left: 0px;
+}
+.item-2{
+	position: fixed;
+	left: 0;
+	top: 200px;
+}
+.item-3{
+	position: fixed;
+	left: 0;
+	top: 300px;
+}
+.item-4{
+	position: fixed;
+	left: 0;
+	top: 400px;
+}
+.item-5{
+	position: fixed;
+	left: 0;
+	top: 500px;
+}
+*/
+
+.social-icon ul li a i:hover{
+	transform: scale(0.6);
+	transition: 0.5s;
+}
+.subscribe{
+	width: 500px;
+	margin: 0px auto;
+	border-radius: 10px;
+	background-color: rgba(255,255,255,0.6);
+	text-align: center;
+	padding: 30px 15px;
+}
+h1{
+	margin: 0px;
+	margin-bottom: 16px;
+}
+
+h4{
+	margin: 0px;
+	margin-bottom: 10px;
+}
+input{
+	padding: 10px 20px;
+background-color: transparent;
+border: 1px solid;
+}
+input:focus{
+	outline: none;
+}
+.submit-btn{
+	background-color: green;
+	color: white;
+	border: 1px solid red;
+	cursor: pointer;
+	transition: 0.5s;
+
+}
+.submit-btn:hover{
+	background-color: blue;
+	border: 1px solid black;
+	transition: 0.5s;
+}
+h3{
+	margin: 10px;
+	margin-bottom: 16px;
+	padding: 10px;
+}
+.post{
+	width: 400px;
+	margin: 0 auto;
+	position: relative;
+}
+.title{
+	position: absolute;
+	top: 30px;
+	left: 40px;
+	color: white;
+}
+.outer-box{
+	width: 400px;
+	height: 200px;
+	background-color: rgba(255,255,255,0.6);
+	margin: auto;
+	border-radius: 10px;
+	position: relative;
+}
+.circle{
+	height: 100px:
+	width: 100px;
+	background-color: red;
+	border-radius: 100px;
+	
+}
+.box-icon{
+	height: 60px;
+	width: 60px;
+	background-color: red;
+	position: absolute;
+	bottom: 30px;
+}
+.form-box{
+	width: 400px;
+	margin: auto;
+	background-color:  #ffa533;
+	border-radius: 10px;
+	padding: 55px 60px;
+	text-align: center;
+}
+.form-box h3{
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 900;
+	margin-bottom: 40px;
+}
+.form-box form input{
+	text-align: center;
+}
+.form-box form input{
+	width: 300px;
+	margin-bottom: 30px;
+	border-radius: 5px;
+
+
+}
+.btn{
+	background: linear-gradient(45deg,#27dbe9,#e67d);
+	color: white;
+	width: 340px ! important;
+}
